@@ -1,0 +1,132 @@
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #BFA89E;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 15px 3px #1E2332;
+    border-radius: 20px;
+    border: none;
+}
+
+header h1 h2 {
+    font-family: Sanchez, serif;
+    font-size: 48px;
+    color: #EBF5EE;
+    text-align: center;
+}
+
+ul {
+    font-family: Dosis, sans-serif;
+    list-style-type: none;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+a:link {
+    color: #3b4255;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8b786d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #594d46;
+    text-decoration: none;
+}
+
+a:active {
+    color: #EBF5EE;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: Sanchez, serif;
+    font-size: 48px;
+    color: #EBF5EE;
+    text-align: center;
+}
+
+h2 {
+    font-family: Sanchez, serif;
+    color: #EBF5EE;
+    text-align: center;
+}
+
+main p {
+    font-size: 18px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p {
+    font-family: Dosis, sans-serif;
+    color: #EBF5EE;
+}
+
+body {
+    background-color: #3b4255;
+}
+
+table, th, td {
+    font-family: Dosis, sans-serif;
+    font-size: 18px;
+    border: 1px solid #BFA89E;
+}
+
+th {
+    color: #EBF5EE;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    font-size: 22px;
+    white-space: nowrap;
+}
+
+.nav-item a {
+    padding: 10px;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#intro-info1 {
+    grid-column: 2;
+    grid-row: span 2;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro-info2 {
+    justify-items: start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-photo {
+    border: 5px solid #8B786D;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 3px #1E2332;
+    justify-items: center;
+    height: auto;
+    width: auto;
+    grid-row: 1 / span 3;
+}
